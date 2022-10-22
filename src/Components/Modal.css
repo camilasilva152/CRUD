@@ -1,0 +1,86 @@
+.modalBackground {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.modalContainer {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.excluir {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  color: rgb(233, 0, 0);
+  border-radius: 5%;
+  border: 1px solid #ffffff;
+}
+
+.excluir:hover {
+  background: rgba(191, 19, 4, 0.8);
+  background: rgba(191, 19, 4, 0.8);
+  color: white;
+  border-radius: 2%;
+  border: 1px solid #e7e7e7;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnCancelar {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 350px;
+  height: 30px;
+  border: 1px solid #e7e7e7;
+  border-radius: 2%;
+}
+
+.btnExcluir {
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 350px;
+  height: 30px;
+  border-radius: 2%;
+  border: 1px solid #e7e7e7;
+}
+.btnCancelar:hover {
+  background: rgba(191, 19, 4, 0.8);
+  background: rgba(191, 19, 4, 0.8);
+  color: white;
+}
+
+.btnExcluir:hover {
+  background: rgba(191, 19, 4, 0.8);
+  background: rgba(191, 19, 4, 0.8);
+  color: white;
+}
